@@ -1,0 +1,13 @@
+prefix=/home/codespace/sb/venv
+exec_prefix=/home/codespace/sb/venv
+libdir=/home/codespace/sb/venv/lib
+sharedlibdir=/home/codespace/sb/venv/lib
+includedir=/home/codespace/sb/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
